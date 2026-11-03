@@ -1,0 +1,6 @@
+order_id,order_status,order_date,estimated_delivery,payment_status,shipping_status,return_eligible
+ORD1001,Shipped,2026-10-29,2026-11-04,Paid,In Transit,No
+ORD1002,Delivered,2026-10-24,2026-10-29,Paid,Delivered,Yes
+ORD1003,Processing,2026-11-01,2026-11-06,Paid,Not Dispatched,No
+ORD1004,Cancelled,2026-10-20,2026-10-22,Refund Pending,Cancelled,No
+ORD1005,Delivered,2026-10-15,2026-10-20,Paid,Delivered,No

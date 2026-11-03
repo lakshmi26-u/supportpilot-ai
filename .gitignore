@@ -1,0 +1,28 @@
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated databases and runtime data
+data/chroma_db/
+data/return_requests.json
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Colab-specific configuration
+.streamlit/config.toml
+
+# OS files
+.DS_Store
+Thumbs.db

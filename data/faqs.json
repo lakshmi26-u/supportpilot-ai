@@ -1,0 +1,58 @@
+[
+    {
+        "faq_id": "FAQ001",
+        "category": "returns",
+        "question": "What is the return policy?",
+        "answer": "Customers can return eligible products within 7 days of delivery. Products must be unused and in their original packaging.",
+        "source": "Return Policy"
+    },
+    {
+        "faq_id": "FAQ002",
+        "category": "returns",
+        "question": "How can I request a return?",
+        "answer": "Customers can request a return by providing their order ID to customer support. The support team must verify eligibility before approving the return.",
+        "source": "Return Policy"
+    },
+    {
+        "faq_id": "FAQ003",
+        "category": "shipping",
+        "question": "How long does shipping take?",
+        "answer": "Standard shipping generally takes 3 to 5 business days after dispatch.",
+        "source": "Shipping Policy"
+    },
+    {
+        "faq_id": "FAQ004",
+        "category": "shipping",
+        "question": "Is free shipping available?",
+        "answer": "Free standard shipping is available for orders above Rs. 1000.",
+        "source": "Shipping Policy"
+    },
+    {
+        "faq_id": "FAQ005",
+        "category": "payment",
+        "question": "What payment methods are accepted?",
+        "answer": "Customers can pay using UPI, debit cards, credit cards, and cash on delivery where available.",
+        "source": "Payment Policy"
+    },
+    {
+        "faq_id": "FAQ006",
+        "category": "payment",
+        "question": "What happens if my payment fails?",
+        "answer": "If payment fails, customers should check their bank or payment application before attempting another payment. Duplicate charges must be investigated by the support team.",
+        "source": "Payment Policy"
+    },
+    {
+        "faq_id": "FAQ007",
+        "category": "products",
+        "question": "Can I get product specifications?",
+        "answer": "Product specifications are available on the individual product listing. Support can help clarify information available in the product catalogue.",
+        "source": "Product Policy"
+    },
+    {
+        "faq_id": "FAQ008",
+        "category": "shipping",
+        "question": "Can I change my delivery address?",
+        "answer": "Address changes are subject to order processing status. Requests must be reviewed by the support team before any change is made.",
+        "source": "Shipping Policy"
+    }
+]

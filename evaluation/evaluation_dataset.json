@@ -1,0 +1,62 @@
+[
+    {
+        "id": "EVAL001",
+        "message": "How many days does standard shipping take?",
+        "expected_category": "shipping",
+        "expected_status": "evidence_found"
+    },
+    {
+        "id": "EVAL002",
+        "message": "Can I return an unused product within 7 days?",
+        "expected_category": "returns",
+        "expected_status": "evidence_found"
+    },
+    {
+        "id": "EVAL003",
+        "message": "Which payment methods do you accept?",
+        "expected_category": "payment",
+        "expected_status": "evidence_found"
+    },
+    {
+        "id": "EVAL004",
+        "message": "Where can I find product specifications?",
+        "expected_category": "product",
+        "expected_status": "evidence_found"
+    },
+    {
+        "id": "EVAL005",
+        "message": "Can I change my shipping address after dispatch?",
+        "expected_category": "shipping",
+        "expected_status": "evidence_found"
+    },
+    {
+        "id": "EVAL006",
+        "message": "My payment was deducted twice. What should I do?",
+        "expected_category": "payment",
+        "expected_status": "evidence_found"
+    },
+    {
+        "id": "EVAL007",
+        "message": "Do you sell motorcycles?",
+        "expected_category": "product",
+        "expected_status": "escalate"
+    },
+    {
+        "id": "EVAL008",
+        "message": "Can you guarantee delivery tomorrow?",
+        "expected_category": "shipping",
+        "expected_status": "escalate"
+    },
+    {
+        "id": "EVAL009",
+        "message": "I want to know your return policy.",
+        "expected_category": "returns",
+        "expected_status": "evidence_found"
+    },
+    {
+        "id": "EVAL010",
+        "message": "Can I pay using UPI?",
+        "expected_category": "payment",
+        "expected_status": "evidence_found"
+    }
+]

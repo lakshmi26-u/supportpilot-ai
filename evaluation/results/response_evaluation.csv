@@ -1,0 +1,23 @@
+id,customer_message,expected_status,actual_response_status,response,evidence_count
+EVAL001,How many days does standard shipping take?,evidence_found,response_generated,Hello! Standard shipping generally takes 3 to 5 business days after dispatch. Please let me know if you need help with anything else!,3
+EVAL002,Can I return an unused product within 7 days?,evidence_found,response_generated,"Yes, you can return eligible products within 7 days of delivery, provided they are unused and in their original packaging.",1
+EVAL003,Which payment methods do you accept?,evidence_found,response_generated,"Hello! We accept payments using UPI, debit cards, credit cards, and cash on delivery where available. Please let us know if you need any further assistance!",2
+EVAL004,Where can I find product specifications?,evidence_found,response_generated,"Hello! 
+
+You can find product specifications directly on the individual product listing. If you need help clarifying any information available in our product catalogue, our support team is happy to assist you.",1
+EVAL005,Can I change my shipping address after dispatch?,evidence_found,response_generated,"Hello! 
+
+Address changes are subject to your order processing status, and requests must be reviewed by our support team before any change can be made. 
+
+Please reach out to our support team as soon as possible with your details so we can review your request.",2
+EVAL006,My payment was deducted twice. What should I do?,evidence_found,response_generated,"Hello, 
+
+I understand your concern about the duplicate charge. Duplicate charges must be investigated by the support team, so I am escalating this issue for you so we can look into it right away.",1
+EVAL007,Do you sell motorcycles?,escalate,escalate,Insufficient FAQ evidence. Escalate to human support.,0
+EVAL008,Can you guarantee delivery tomorrow?,escalate,escalate,Insufficient FAQ evidence. Escalate to human support.,0
+EVAL009,I want to know your return policy.,evidence_found,response_generated,"Hello! I would be happy to help you with our return policy. 
+
+Customers can return eligible products within 7 days of delivery, provided the products are unused and in their original packaging. 
+
+To request a return, please provide your order ID, and our support team will verify your eligibility before approving the request. Let me know your order ID if you would like to proceed!",2
+EVAL010,Can I pay using UPI?,evidence_found,response_generated,"Yes, you can pay using UPI.",1
