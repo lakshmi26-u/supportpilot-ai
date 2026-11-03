@@ -7,6 +7,13 @@ import json
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, PROJECT_DIR)
 
+# Load Gemini API key from Streamlit Cloud secrets
+if "GEMINI_API_KEY" not in os.environ:
+    try:
+        os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
+    except (KeyError, FileNotFoundError):
+        pass
+
 import src.backend as backend
 
 st.set_page_config(
