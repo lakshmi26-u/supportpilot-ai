@@ -1,5 +1,7 @@
 # SupportPilot AI – Customer Support and Operations Agent
+🚀 **Live Demo:** [Try SupportPilot AI](https://supportpilot-ai-xzbuw4wpkgrcd6swtnmpio.streamlit.app/)
 
+**GitHub Repository:** [SupportPilot AI](https://github.com/lakshmi26-u/supportpilot-ai)
 An AI-powered customer support assistant built with Python, Streamlit, Google Gemini, Sentence Transformers, and ChromaDB.
 
 ## Features
@@ -173,4 +175,4 @@ Never commit your actual API key.
 streamlit run app.py
 ```
 
-Open the local URL shown in the terminal, usually http://localhost:8501.
+
